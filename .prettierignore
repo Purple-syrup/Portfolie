@@ -1,0 +1,7 @@
+node_modules
+artifacts
+.next
+.env
+.*
+README.md
+yarn.lock

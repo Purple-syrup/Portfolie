@@ -1,0 +1,95 @@
+.heroImage {
+	background-image: url("https://21756910.fs1.hubspotusercontent-na1.net/hubfs/21756910/ux-software-examples-trymyui-usability-testing-hero-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	margin: none;
+	/* position:absolute; */
+}
+.heroText {
+	position: absolute;
+	z-index: 8;
+	width: 30%;
+	margin: 200px auto auto 50px;
+}
+
+.heroText > div > p {
+	color: brown;
+	/* line-height:1.5rem; */
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.heroButton {
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: skyBlue;
+	border-radius: 5px;
+	color: whitesmoke;
+	/* margin-top:9px; */
+}
+.heroButton:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 901px) {
+	.heroImage {
+		height: 500px;
+	}
+	.heroText {
+		width: 40%;
+		margin: 180px auto auto 50px;
+	}
+}
+@media (max-width: 750px) {
+	.heroImage {
+		height: 300px;
+	}
+	.heroText {
+		width: 40%;
+		margin: 95px auto auto 50px;
+	}
+	.heroButton {
+		padding: 5px 15px;
+	}
+	.heroText {
+		display: flex;
+		flex-direction: row;
+		gap: 1;
+		width: 95%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.secondHeroText {
+		margin-top: 45px;
+	}
+}
+@media (max-width: 517px) {
+	.heroText {
+		display: flex;
+		flex-direction: row;
+		gap: 1;
+		width: 95%;
+		margin-left: 5px;
+		margin-top: 40px;
+		margin-right: 5px;
+	}
+	.secondHeroText {
+		margin-top: 60px;
+	}
+	.heroImage {
+		height: 300px;
+	}
+}
+
+@media (max-width: 380px) {
+	.heroText {
+		display: flex;
+		flex-direction: row;
+		gap: 1;
+		width: 95%;
+		margin-left: 5px;
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+}
